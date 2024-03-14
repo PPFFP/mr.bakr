@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bakr jassem</title>
+<!-- font icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<!-- font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Blaka+Ink&family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+    <!-- ملف css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <header>
+    <nav>
+        <a href="#" class="logo"><span>BKO </span>AL-taei</a>
+        <ul class="links">
+            <li class="active"><a href="#">الصفحة الرئيسية</a></li>
+            <li><a href="#">وصف</a></li>
+            <li><a href="#">مهاراتي</a></li>
+            <li><a href="#">اعمالي</a></li>
+            <li><a href="#">تواصل</a></li>
+        </ul>
+        <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+        </div>
+        <i id="btnmenu" class="fa-solid fa-bars"></i>
+    </nav>
+   </header> 
+   <div class="hero-sec">
+    <div class="contanier">
+        <div class="div-text">
+            <h1>Bakr Jasim</h1>
+            <span>Web Designer </span>
+            <p> بكر جاسم , من محافظة الانبار ابلغ من العمر 25 عام نشاءت وترعرت في تلك المحافظة درست وتعلمت في معهد التقني الانبار- قسم انظمة حاسبات</p>
+       <a href="#" class="btn"> تواصل معي </a>
+        </div>
+        <div class="div-img">
+            <img src="img/11.png" alt="">
+        </div>
+    </div>
+   </div>
+   <script>
+    let btnmenu = document.getElementById("btnmenu");
+    let navlinks =document.querySelector(".links");
+    btnmenu.onclick = function(){
+        btnmenu.classList.toggle("fa-times")
+        navlinks.classList.toggle("active")
+
+    }
+   </script>
+</body>
+</html>
