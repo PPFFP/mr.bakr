@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bakr jassem</title>
+<!-- font icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<!-- font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Blaka+Ink&family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+    <!-- ملف css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <header>
+    <nav>
+        <a href="#" class="logo"><span>BKO </span>AL-taei</a>
+        
+            <ul class="links" dir="rtl">
+                <li class="active"><a href="index.html">الصفحة الرئيسية</a></li>
+                <li><a href="2.html">وصف عني</a></li>
+                <li><a href="#">مهاراتي</a></li>
+                <li><a href="#">اعمالي</a></li>
+                <li><a href="1.html">تواصل</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="https://www.facebook.com/bakury200"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/ppf._p"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://t.me/ppffp"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+        <i id="btnmenu" class="fa-solid fa-bars"></i>
+    </nav>
+   </header> 
+   <div class="hero-sec">
+    <div class="contanier">
+        <div class="div-text">
+            <h1>Bakr Jasim</h1>
+<p dir="rtl">أنا مبرمج متخصص في لغات البرمجة PHP، Java، C++، HTML، و CSS، حيث أمتلك معرفة عميقة وخبرة وافرة في هذه اللغات. بفضل معرفتي الواسعة، أستطيع تطوير مجموعة متنوعة من التطبيقات والمواقع بمختلف المستويات والمتطلبات. في PHP، أستطيع بناء تطبيقات الويب الديناميكية وإدارة قواعد البيانات بسهولة باستخدام MySQL أو غيرها من قواعد البيانات. بالنسبة لـ Java وC++، أنا قادر على تطوير تطبيقات سطح المكتب وتطبيقات الجوال القوية والموثوقة. أما فيما يتعلق بـ HTML و CSS، فأنا أستطيع تصميم وتنسيق واجهات المستخدم الجذابة والمتميزة بكفاءة عالية. بفضل مهاراتي البرمجية والإبداعية، أسعى دائمًا لتقديم حلول برمجية مبتكرة وفعالة تلبي احتياجات العملاء وتفوق توقعاتهم.</p>
+        </div>
+        <div class="div-img">
+            <img src="img/11.png" alt="">
+        </div>
+    </div>
+   </div>
+   <script>
+    let btnmenu = document.getElementById("btnmenu");
+    let navlinks =document.querySelector(".links");
+    btnmenu.onclick = function(){
+        btnmenu.classList.toggle("fa-times")
+        navlinks.classList.toggle("active")
+
+    }
+   </script>
+</body>
+</html>

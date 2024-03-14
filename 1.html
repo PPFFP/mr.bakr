@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bakr jassem</title>
+<!-- font icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<!-- font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Blaka+Ink&family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+    <!-- ملف css -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+         h2 {
+            color: #fff;
+            text-align: center;
+            margin: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+         .div-text a {
+            display: inline-block;
+            font-size: 20px;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #fff;
+            background-color: rgb(63, 116, 160);
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        a:hover {
+            background-color: #0056b3;
+        }
+       .div-text i{
+    color: rgb(167, 207, 239);
+    font-size: 24px;
+    margin-left:200px;
+    transition: 0.3s;}
+
+    </style>
+</head>
+<body>
+   <header>
+    <nav>
+        <a href="#" class="logo"><span>BKO </span>AL-taei</a>
+            <ul class="links" dir="rtl">
+                <li class="active"><a href="index.html">الصفحة الرئيسية</a></li>
+                <li><a href="2.html">وصف عني</a></li>
+                <li><a href="#">مهاراتي</a></li>
+                <li><a href="#">اعمالي</a></li>
+                <li><a href="1.html">تواصل</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="https://www.facebook.com/bakury200"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/ppf._p"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://t.me/ppffp"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+        <i id="btnmenu" class="fa-solid fa-bars"></i>
+    </nav>
+   </header> 
+   <div class="hero-sec">
+    <div class="contanier">
+        <div class="div-text">
+            <h2>تواصل معنا على وسائل التواصل الاجتماعي</h2>
+            <ul>
+                <li><i class="fa-brands fa-facebook"></i>  <a href="https://www.facebook.com/bakury200">facebook</a></li>
+                <li><i class="fa-brands fa-telegram"></i>  <a href="https://t.me/ppffp">telegram</a></li>
+                <li><i class="fa-brands fa-instagram"></i>  <a href="https://www.instagram.com/ppf._p">instagram</a></li>
+                <li><i class="fa-brands fa-whatsapp"></i>  <a href="https://wa.me/message/IBU7HCMCR4YIG1">WhatsApp</a></li>
+                <!-- يمكنك إضافة المزيد من وسائل التواصل الاجتماعي هنا -->
+            </ul>
+
+        </div>
+        <div class="div-img">
+            <img src="img/11.png" alt="">
+        </div>
+    </div>
+   </div>
+   <script>
+    let btnmenu = document.getElementById("btnmenu");
+    let navlinks =document.querySelector(".links");
+    btnmenu.onclick = function(){
+        btnmenu.classList.toggle("fa-times")
+        navlinks.classList.toggle("active")
+
+    }
+   </script>
+</body>
+</html>
